@@ -15,7 +15,7 @@ Provides docker-compose.yaml to launch a Docker container for .NET Core.
 1. Run the following command to confirm that the container has started.  
 
     ```bash
-    docker-compose logs -f
+    docker-compose ps
     ```
 
 ## Creating .NET Core project  
