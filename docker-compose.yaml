@@ -2,8 +2,8 @@ version: '3'
 
 services:
   app:
-    image: mcr.microsoft.com/dotnet/core/sdk:latest
-    container_name: docker-dotnetcore
+    image: mcr.microsoft.com/dotnet/sdk:6.0
+    container_name: docker-dotnet
     tty: true
     ports:
       - 10080:80
